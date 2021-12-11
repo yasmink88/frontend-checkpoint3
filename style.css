@@ -1,0 +1,62 @@
+.nav-item {
+  color: rgba(133, 167, 199, 0.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-item + .nav-item {
+  margin-left: 1rem;
+}
+
+.nav-item .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+
+.banner {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("./dell.jpg");
+  background-attachment: fixed;
+}
+
+.fs-1 {
+  padding: 10%;
+}
+
+.fs-2 {
+  padding: 1% 10%;
+}
+
+.containerOfCards {
+  padding: 1% 10%;
+}
+
+.col-sm-4 {
+  padding-top: 2%;
+}
+
+.navbar-brand {
+  padding-left: 10%;
+}
+
+.contentLinks {
+  padding-right: 10%;
+}
+
+.card{
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.card:hover{
+   transform: scale(1.02);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
