@@ -1,0 +1,133 @@
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    margin: -1px;
+}
+
+.navbar {
+    background-color: #376AB6;
+}
+
+.logo {
+    max-width: 100px;
+}
+.nav-item a {
+    color: rgba(133, 167, 199, 0.5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+  }
+  
+  .nav-item a:hover,
+  .nav-item a:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+  }
+  
+  .nav-item + .nav-item {
+    margin-left: 1rem;
+  }
+
+  
+  .banner {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../assets/banner.jpg");
+    background-attachment: fixed;
+  }
+  
+  .banner .row {
+      padding: 0 4rem;
+      color: #fff;
+  }
+  
+  .containerOfCards {
+    padding: 6rem 0 4rem;
+  }
+  
+  .col-sm-4 {
+    padding-top: 2%;
+  }
+  
+  .navbar-brand {
+    padding-left: 10%;
+  }
+  
+  .contentLinks {
+    padding-right: 10%;
+  }
+  
+  .card{
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  }
+  
+  .card:hover{
+     transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+
+  .product-details {
+      margin: 8rem 0 4rem;
+  }
+  
+  
+  .footer {
+    padding: 30px;
+    width:100%;
+    color: white;
+    background-color:#566c81;
+    text-align: justify;
+  }
+  
+  .row{
+  display: flex;
+  flex-wrap:wrap;
+  }
+  
+  .description-names{
+    font-size: 16 px;
+    font-weight: bold;
+    margin-bottom: 30 px;
+    color:rgba(253, 253, 253, 0.897);
+    text-decoration: none;
+    font-weight: 300;
+    position: relative;
+    display: block;
+  }
+  
+  .names {
+    font-size: 30 px;
+    font-weight: bold;
+    margin-bottom: 30 px;
+    color:white;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .names:hover{
+    font-size: 30 px;
+    font-weight: bold;
+    margin-bottom: 30 px;
+    color:white;
+    position: relative;
+    
+  }
+  
+  .social-links{ 
+   display: block;
+   position:relative;
+   text-align: center;
+   height: 40px;
+   width: 40px;
+   transition: all 0.5s ease;
+  }
+  
+  ion-icon{
+    position:relative;
+    color:white;
+    font-size: 40px;    
+  }
