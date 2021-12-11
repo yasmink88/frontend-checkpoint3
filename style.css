@@ -22,18 +22,13 @@
 .banner {
   height: 100vh;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center center;
   background-image: url("./dell.jpg");
   background-attachment: fixed;
 }
 
-.fs-1 {
-  padding: 10%;
-}
-
-.fs-2 {
-  padding: 1% 10%;
+.containerBannerContent {
+  padding: 2%;
 }
 
 .containerOfCards {
@@ -59,4 +54,62 @@
 .card:hover{
    transform: scale(1.02);
 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+.footer {
+  padding: 30px;
+  width:100%;
+  color: white;
+  background-color:#566c81;
+  text-align: justify;
+}
+
+.row{
+display: flex;
+flex-wrap:wrap;
+}
+
+.description-names{
+  font-size: 16 px;
+  font-weight: bold;
+  margin-bottom: 30 px;
+  color:rgba(253, 253, 253, 0.897);
+  text-decoration: none;
+  font-weight: 300;
+  position: relative;
+  display: block;
+}
+
+.names {
+  font-size: 30 px;
+  font-weight: bold;
+  margin-bottom: 30 px;
+  color:white;
+  position: relative;
+  text-decoration: none;
+}
+
+.names:hover{
+  font-size: 30 px;
+  font-weight: bold;
+  margin-bottom: 30 px;
+  color:white;
+  position: relative;
+  
+}
+
+.social-links{ 
+ display: block;
+ position:relative;
+ text-align: center;
+ height: 40px;
+ width: 40px;
+ transition: all 0.5s ease;
+}
+
+ion-icon{
+  position:relative;
+  color:white;
+  font-size: 40px;    
 }
