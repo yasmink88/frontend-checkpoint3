@@ -71,9 +71,15 @@
   }
 
   .product-details {
-      margin: 8rem 0 4rem;
+      margin-top: 8rem;
+      margin-bottom: 4rem;
+      padding: 0 2rem;
+      gap: 2rem;
   }
-  
+
+  #nav-product img {
+      max-width: 100%;
+  }
   
   .footer {
     padding: 30px;
@@ -131,3 +137,23 @@
     color:white;
     font-size: 40px;    
   }
+
+  .copyright {
+      background-color: #242e37;
+  }
+  .copyright p {
+      margin-bottom: 0;
+      color: #fff;
+  }
+
+
+  /*Override Bootstrap*/
+  .btn-primary {
+    background-color: #2fc031;
+    border-color: #2fc031;
+}
+
+.btn-primary:hover {
+    background-color: #1c781d;
+    border-color: #1c781d;
+}
